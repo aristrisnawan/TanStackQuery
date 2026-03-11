@@ -1,19 +1,20 @@
 {
   "todos": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Buy groceries",
       "completed": false
     },
     {
-      "id": 2,
-      "title": "Walk the dog",
-      "completed": true
+      "id": "3",
+      "title": "Read a book horror",
+      "completed": false
     },
     {
-      "id": 3,
-      "title": "Read a book",
+      "id": "1773211839599",
+      "title": "Buy car was",
       "completed": false
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }

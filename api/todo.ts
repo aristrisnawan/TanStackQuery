@@ -50,7 +50,7 @@ export async function deleteTodo(id: string): Promise<void> {
 }
 
 export async function updateTodo(todo: Todo): Promise<Todo> {
-    const response = await fetch(`${API_URL}/todos/`, {
+    const response = await fetch(`${API_URL}/todos/${todo.id}`, {
         method: 'PUT',
         headers: {
             'Content-Type': 'application/json'
